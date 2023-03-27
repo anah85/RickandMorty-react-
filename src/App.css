@@ -20,8 +20,37 @@
 }
 .NavHome{
   margin: 0 auto 2em;
-  display: block;
-  @media screen and (max-width: 1024px) {
-    max-width: 100%;
+  @media screen and @media (min-width: 420px) {
+    img  {
+    max-width: 48%;
   }
+}}
+.formLogin{
+  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.formLogin-label{
+ margin: 5px;
+}
+.formLogin-input{
+  background: rgb(48, 47, 47);
+  border-radius: 5px;
+}
+.formLogin-btn{
+  margin-top: 5px;
+  border-radius: 5px;
+  color:rgb(192,223,64) ;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid rgb(192,223,64);
+  outline: none;
+  transition: 1s ease-in-out;
+}
+.formLogin-btn:hover {
+  color:black;
+  transition: 1s ease-in-out;
+  background: rgb(64,181,203);
 }

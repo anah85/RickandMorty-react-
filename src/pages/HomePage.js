@@ -5,7 +5,7 @@ export const HomePage = () => {
   return (
 
 <nav className="NavHome">
-  <a href='/'><img src={RickandMorty} alt='rick and morty'/></a>
+<img className="col-lg-3 col-md-4 col-sm-6 col-xs-12" src={RickandMorty} alt='rick and morty'/>
 </nav>
 
   )
