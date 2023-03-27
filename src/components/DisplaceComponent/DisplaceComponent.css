@@ -1,0 +1,18 @@
+.DisplaceComponent {
+    
+}
+.pagination{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;;
+    
+}
+.page-item{
+    background-color: transparent;
+    border: none;
+    color:rgb(192,223,64);
+}
+.page-item:hover{
+    background-color:rgb(192,223,64);
+    color:black;
+}

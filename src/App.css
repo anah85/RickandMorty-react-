@@ -1,0 +1,27 @@
+
+
+.App {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: black;
+  color:rgb(192,223,64);
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px;
+  
+}
+.col{
+  border: 2px solid rgb(192,223,64);
+  margin: 5px;
+}
+.NavHome{
+  margin: 0 auto 2em;
+  display: block;
+  @media screen and (max-width: 1024px) {
+    max-width: 100%;
+  }
+}
