@@ -20,9 +20,9 @@
 }
 .NavHome{
   margin: 0 auto 2em;
-  @media screen and @media (min-width: 420px) {
+  @media screen and @media (max-width: 420px) {
     img  {
-    max-width: 48%;
+    width: 200px;
   }
 }}
 .formLogin{
