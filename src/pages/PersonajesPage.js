@@ -8,8 +8,8 @@ const PersonajesPage = ({character}) => {
      {character.map((characters, index)=>(
     <div key={index} className="col mb-4">
     <div classname="card">
-    <h5 className="card-title">{characters.name}</h5>
     <img src={characters.image} alt=""/>
+    <h3 className="card-title">{characters.name}</h3>
     <div className="card-body">
     <p>Species: {characters.species}</p>
     <p>Gender: {characters.gender}</p>
